@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&family=Khand:wght@300;500;600;700&family=Viga&display=swap" rel="stylesheet">
@@ -15,34 +17,37 @@
 
     <title>Formulário Resilia</title>
 
-    <style>
-        body{
-            background-image: url("fundo/v1016-a-09.jpg");
-            background-size: cover;
-        }
-    </style>
-
-    
-
 </head>
 
 <body>
     
     <header>
+       
+        <nav class="boxnav">
 
-        <h1 class="especial">RESILIA</h1>
-        <nav>
-
+            <div class="boxlogo">
+                <h1 id="logo">RESILIA</h1>
+            </div>
+            
+            <div class="barnav">
+                <h1>Home</h1>
+                <h1>Sobre Nos</h1>
+                <h1>Cursos</h1>
+                <h1>Alunos</h1>
+            </div>
 
         </nav>
         
     </header>
+
     <main>
-        <section>
+
+        <section class="boxsec1">
 
             <form action="pagina002.html" method="post">
 
-            <h2>Inscrições Resilia</h2>
+            <h2 id="tit2">Inscrições Resilia</h2>
+                
                 <div>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" value="Nome Completo" />
@@ -58,39 +63,36 @@
                 <div class="button">
                     <button type="submit">Enviar</button>
                 </div>
-
-                <aside>
-                    <img src="Imagenes/pixel-cells-g5778f1eea_640.png" alt="estudando" class="imagen01">
-
-                    <img src="Imagenes/insta2.png" alt="logo de instagram" class="imagen02">
-
-                    <a href="https://www.instagram.com/resilia.br/" class="n2">Siga-nos</a>
-                    
-                    <img src="Imagenes/face2.png" alt="logo de facebook" class="imagen03">
-
-                    <a href="https://www.facebook.com/resilia.br/" class="n3">Siga-nos</a>
-
-                    <img src="Imagenes/youtube2.png" alt="logo de youtube" class="imagen04">
-
-                    <a href="https://www.youtube.com/channel/UCBIRxu3dixMNMRVjz-YQAcA" class="n4">Siga-nos</a>
-
-                </aside>
-
             </form>
+
         </section>
-            <aside>
 
+        <section class="boxsec3">
+                    
+            <img src="Imagenes/pixel-cells-g5778f1eea_640.png" alt="estudando" class="imagen01">
+                    
+            <div class="blockredes">
 
-            </aside>
-               
-    </main>
-    <footer>
+                <a href="https://www.instagram.com/resilia.br/" target="_blank"><img src="Imagenes/insta2.png" alt="logo de instagram" class="imagen02"></a>
 
-    </footer>    
-       
+                        /**/
+                    
+                <a href="https://www.facebook.com/resilia.br/" target="_blank"><img src="Imagenes/face2.png" alt="logo de facebook" class="imagen03"></a>
 
+                        /**/
 
-    
+                <a href="https://www.youtube.com/channel/UCBIRxu3dixMNMRVjz-YQAcA" target="_blank"><img src="Imagenes/youtube2.png" alt="logo de youtube" class="imagen04"></a>
+
+            </div>
+                   
+        </section>
+
+        <section class="boxsec2">
+        
+        </section>
+                           
+    </main>   
+         
 </body>
 
 </html>
